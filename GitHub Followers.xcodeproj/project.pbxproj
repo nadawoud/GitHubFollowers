@@ -14,6 +14,7 @@
 		616779792401861F007B3E87 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616779782401861F007B3E87 /* SearchViewController.swift */; };
 		6167797B24018652007B3E87 /* FavoritesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6167797A24018652007B3E87 /* FavoritesListViewController.swift */; };
 		6167797D2401BE69007B3E87 /* GFButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6167797C2401BE69007B3E87 /* GFButton.swift */; };
+		6167797F2401BFC2007B3E87 /* GFTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6167797E2401BFC2007B3E87 /* GFTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		616779782401861F007B3E87 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		6167797A24018652007B3E87 /* FavoritesListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesListViewController.swift; sourceTree = "<group>"; };
 		6167797C2401BE69007B3E87 /* GFButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFButton.swift; sourceTree = "<group>"; };
+		6167797E2401BFC2007B3E87 /* GFTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				6114A79F23FF14A30016D035 /* AppDelegate.swift */,
 				6114A7A123FF14A30016D035 /* SceneDelegate.swift */,
 				6167797C2401BE69007B3E87 /* GFButton.swift */,
+				6167797E2401BFC2007B3E87 /* GFTextField.swift */,
 				6114A7A823FF14A70016D035 /* Assets.xcassets */,
 				616779782401861F007B3E87 /* SearchViewController.swift */,
 				6167797A24018652007B3E87 /* FavoritesListViewController.swift */,
@@ -140,6 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6167797F2401BFC2007B3E87 /* GFTextField.swift in Sources */,
 				6167797B24018652007B3E87 /* FavoritesListViewController.swift in Sources */,
 				6167797D2401BE69007B3E87 /* GFButton.swift in Sources */,
 				6114A7A023FF14A30016D035 /* AppDelegate.swift in Sources */,
