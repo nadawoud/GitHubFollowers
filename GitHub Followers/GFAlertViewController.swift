@@ -83,7 +83,7 @@ class GFAlertViewController: UIViewController {
         NSLayoutConstraint.activate([
             actionButton.bottomAnchor.constraint(equalTo: containerView.bottomAnchor, constant: -padding),
             actionButton.leadingAnchor.constraint(equalTo: containerView.leadingAnchor, constant: padding),
-            actionButton.trailingAnchor.constraint(equalTo: containerView.trailingAnchor, constant: padding),
+            actionButton.trailingAnchor.constraint(equalTo: containerView.trailingAnchor, constant: -padding),
             actionButton.heightAnchor.constraint(equalToConstant: 45)
         ])
     }
@@ -97,7 +97,7 @@ class GFAlertViewController: UIViewController {
         NSLayoutConstraint.activate([
             messageLabel.topAnchor.constraint(equalTo: titleLabel.bottomAnchor, constant: 10),
             messageLabel.leadingAnchor.constraint(equalTo: containerView.leadingAnchor, constant: padding),
-            messageLabel.trailingAnchor.constraint(equalTo: containerView.trailingAnchor, constant: padding),
+            messageLabel.trailingAnchor.constraint(equalTo: containerView.trailingAnchor, constant: -padding),
             messageLabel.bottomAnchor.constraint(equalTo: actionButton.topAnchor, constant: -10)
         ])
     }
