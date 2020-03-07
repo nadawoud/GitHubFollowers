@@ -70,22 +70,54 @@
 		6114A79E23FF14A30016D035 /* GitHub Followers */ = {
 			isa = PBXGroup;
 			children = (
-				6114A79F23FF14A30016D035 /* AppDelegate.swift */,
-				6114A7A123FF14A30016D035 /* SceneDelegate.swift */,
-				6167797C2401BE69007B3E87 /* GFButton.swift */,
-				6167797E2401BFC2007B3E87 /* GFTextField.swift */,
-				6114A7A823FF14A70016D035 /* Assets.xcassets */,
-				616779782401861F007B3E87 /* SearchViewController.swift */,
-				6167797A24018652007B3E87 /* FavoritesListViewController.swift */,
-				6114A7AA23FF14A70016D035 /* LaunchScreen.storyboard */,
+				61C034A82413DDA500B5E711 /* Screens */,
+				61C034A52413DCFB00B5E711 /* Custom Views */,
+				61C034A72413DD7D00B5E711 /* Extensions */,
+				61C034A62413DD5A00B5E711 /* Support */,
 				6114A7AD23FF14A70016D035 /* Info.plist */,
-				616779802401C7B3007B3E87 /* FollowersListViewController.swift */,
-				616779822402E38B007B3E87 /* GFTitleLabel.swift */,
-				616779842402E53C007B3E87 /* GFBodyLablel.swift */,
-				61CB33412411920000524085 /* GFAlertViewController.swift */,
-				61C034A32412FDC100B5E711 /* UIViewController+Ext.swift */,
 			);
 			path = "GitHub Followers";
+			sourceTree = "<group>";
+		};
+		61C034A52413DCFB00B5E711 /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+				61CB33412411920000524085 /* GFAlertViewController.swift */,
+				6167797C2401BE69007B3E87 /* GFButton.swift */,
+				6167797E2401BFC2007B3E87 /* GFTextField.swift */,
+				616779842402E53C007B3E87 /* GFBodyLablel.swift */,
+				616779822402E38B007B3E87 /* GFTitleLabel.swift */,
+			);
+			path = "Custom Views";
+			sourceTree = "<group>";
+		};
+		61C034A62413DD5A00B5E711 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				6114A79F23FF14A30016D035 /* AppDelegate.swift */,
+				6114A7A123FF14A30016D035 /* SceneDelegate.swift */,
+				6114A7AA23FF14A70016D035 /* LaunchScreen.storyboard */,
+				6114A7A823FF14A70016D035 /* Assets.xcassets */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		61C034A72413DD7D00B5E711 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				61C034A32412FDC100B5E711 /* UIViewController+Ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		61C034A82413DDA500B5E711 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				616779782401861F007B3E87 /* SearchViewController.swift */,
+				616779802401C7B3007B3E87 /* FollowersListViewController.swift */,
+				6167797A24018652007B3E87 /* FavoritesListViewController.swift */,
+			);
+			path = Screens;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
