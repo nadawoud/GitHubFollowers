@@ -90,6 +90,15 @@
 			path = "GitHub Followers";
 			sourceTree = "<group>";
 		};
+		6128B3D52421EE5B0047B53B /* Labels */ = {
+			isa = PBXGroup;
+			children = (
+				616779822402E38B007B3E87 /* GFTitleLabel.swift */,
+				616779842402E53C007B3E87 /* GFBodyLablel.swift */,
+			);
+			path = Labels;
+			sourceTree = "<group>";
+		};
 		615BD00524202CE3005ACC09 /* Managers */ = {
 			isa = PBXGroup;
 			children = (
@@ -109,11 +118,12 @@
 		61C034A52413DCFB00B5E711 /* Custom Views */ = {
 			isa = PBXGroup;
 			children = (
+				6128B3D52421EE5B0047B53B /* Labels */,
 				61CB33412411920000524085 /* GFAlertViewController.swift */,
 				6167797C2401BE69007B3E87 /* GFButton.swift */,
 				6167797E2401BFC2007B3E87 /* GFTextField.swift */,
-				616779842402E53C007B3E87 /* GFBodyLablel.swift */,
-				616779822402E38B007B3E87 /* GFTitleLabel.swift */,
+				6128B3D62421EEEE0047B53B /* FollowerCell.swift */,
+				6128B3D82421F0430047B53B /* GFAvatarImageView.swift */,
 			);
 			path = "Custom Views";
 			sourceTree = "<group>";
