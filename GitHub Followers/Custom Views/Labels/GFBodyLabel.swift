@@ -1,5 +1,5 @@
 //
-//  GFBodyLablel.swift
+//  GFBodyLabel.swift
 //  GitHub Followers
 //
 //  Created by Nada Yehia Dawoud on 2/23/20.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class GFBodyLablel: UILabel {
+class GFBodyLabel: UILabel {
     override init(frame: CGRect) {
         super.init(frame: frame)
         configure()

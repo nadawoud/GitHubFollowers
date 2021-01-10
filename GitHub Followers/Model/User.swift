@@ -14,10 +14,10 @@ struct User: Codable {
     var name: String?
     var location: String?
     var bio: String?
-    var publicRebos: Int
+    var publicRepos: Int
     var publicGists: Int
     var htmlUrl: String
-    var folowing: Int
+    var following: Int
     var followers: Int
     var createdAt: String
 }
